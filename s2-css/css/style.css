@@ -1,3 +1,7 @@
+body{
+  font-family: sans-serif;
+}
+
 header{
   background-color: greenyellow;
 }
@@ -5,24 +9,34 @@ header{
 nav{
   background-color: green;
   height: 25px;
+  margin: 25px;
 }
 
 aside{
   background-color: orange;
-  width: 150px;
+  width: 20%;
   height: 450px;
   display: inline-block;
+  vertical-align:top;
 }
 
 main{
   background-color: red;
-  width: 250px;
+  width: 59%;
   height: 450px;
   display: inline-block;
+  vertical-align: top;
 }
 
 section{
   background-color: red;
+}
+
+article{
+  background-color: honeydew;
+  box-sizing: border-box;
+  margin: 15px;
+  height: 40px;
 }
 
 footer{
