@@ -1,0 +1,30 @@
+header{
+  background-color: greenyellow;
+}
+
+nav{
+  background-color: green;
+  height: 25px;
+}
+
+aside{
+  background-color: orange;
+  width: 150px;
+  height: 450px;
+  display: inline-block;
+}
+
+main{
+  background-color: red;
+  width: 250px;
+  height: 450px;
+  display: inline-block;
+}
+
+section{
+  background-color: red;
+}
+
+footer{
+  background-color:orchid;
+}
