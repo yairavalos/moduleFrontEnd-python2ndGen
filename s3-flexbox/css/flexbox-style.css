@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: navy;
+  color: oldlace;
+}
+
+section{
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rowFlex {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
