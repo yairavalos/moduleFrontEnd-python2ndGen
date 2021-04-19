@@ -95,3 +95,79 @@ ul{
 .mainHeader section div a img{
   padding: 10px;
 }
+
+/* This is the middle part
+Here is the Body of the Body
+Main it´s in the middle of Body */
+
+.mainBody{
+  display: flex;
+  flex-direction: column;
+} 
+
+.mainBody .mainTop{
+  margin: 40 px 40px;
+}
+
+.mainBody .mainCards {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainBody .mainCards .topCards{
+  display: flex;
+  justify-content: space-around;
+}
+
+.mainBody .mainCards .bottomCards{
+  display: flex;
+  justify-content: space-around;
+}
+
+.mainBody .mainCards .singleCard{
+  margin: 40px 40px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.mainBody .mainCards .singleCard .cardMiddle{
+  margin: 30px 0px;
+}
+
+.mainBody .mainCards .singleCard p{
+  display: inline-block;
+  margin: 0px 25px;
+}
+
+.mainBody .mainCards .singleCard .cardBottom{
+  display:flex;
+  justify-content:space-between;
+  
+}
+
+.mainBody .mainCards .singleCard .cardBottom div{
+  display: flex;
+  justify-content: space-around;
+}
+
+.mainBody .mainCards .singleCard ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainBody .mainCards .singleCard ul li{
+  margin: 5px;
+  width: 40px;
+}
+
+.mainBody .mainCards .singleCard ul li a{
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.mainFooter{
+  background-color: orange;
+}
