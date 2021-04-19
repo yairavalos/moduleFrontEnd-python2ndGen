@@ -1,0 +1,97 @@
+/*General Config & Statements*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family:sans-serif;
+  color: blue;
+}
+
+ul{
+  list-style: none;
+}
+
+/*Header Config into Header*/
+
+.mainHeader{
+  background: linear-gradient(83.1deg,rgba(154,46,52,0) 0.08%,#C87B4D 93.59%), url("../assets/banner.jpg"), no-repeat;
+  background-position: center,center;
+  background-size: cover;
+  height: 100vh; /*ViewPort - means screen size*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color:white;
+}
+
+.mainHeader a{
+  color:white;
+  text-decoration: white;
+}
+
+.mainHeader nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+}
+
+/*Header Config into Header*/
+
+.mainHeader nav ul{
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+/*"Body equivalent" Config into Header*/
+
+.mainHeader .header-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+}
+
+.mainHeader .header-center p{
+  width: 70%;
+}
+
+/*"Footer equivalent" Config into Header*/
+.mainHeader section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainHeader section .btnLeft{
+  display: inline-block;
+  text-align: center;
+  width: 150px;
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+.mainHeader section ul{
+  display: flex;
+}
+
+.mainHeader section ul li {
+  margin: 3px;
+}
+
+.mainHeader section div a{
+  display: flex;
+  align-items: center;
+  padding: 0px 40px;
+}
+
+.mainHeader section div a img{
+  padding: 10px;
+}
