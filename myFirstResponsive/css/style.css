@@ -1,0 +1,145 @@
+
+/* Top Area Definition */
+
+header{
+  background: greenyellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header a{
+  background: gray;
+  border: 1px solid black;
+  color: white;
+}
+
+header.responsiveNav{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* General Definitions */
+
+h2, p{
+  margin: 10px 10px;
+  color: white;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: roW;
+  justify-content: flex-end;
+  padding: 3px 3px;
+  margin: 1px 1px;
+}
+
+ul li {
+  padding: 3px 3px;
+  margin: 1px 1px;
+}
+
+
+
+/* Card Area Definition */
+
+.cardContainer{
+
+}
+
+.cardContainer .card{
+  box-shadow: 10px;
+  padding: 10px 10px;
+  border: 1px solid gray;
+  margin: 10px 10px;
+}
+
+
+.cardContainer .card a{
+  background: white;
+  padding: 12px 12px;
+  border: 1px solid blue;
+  border-radius: 60%;
+  margin: 2px 2px;  
+}
+
+
+.card.yellowCard{
+  background: khaki;
+}
+
+.card.orangeCard{
+  background: orange;
+}
+
+.card.redCard{
+  background: red;
+}
+
+.card.purpleCard{
+  background: purple;
+}
+
+
+
+/*Bottom Area Definition */
+
+footer{
+  background: aquamarine;
+}
+
+
+
+
+/* Here start responsivity Media*/
+
+/* Mobile View */
+/* Range = less than 320px */
+@media screen {
+  aside, .responsiveNav{
+    display: none;
+  }
+}
+
+
+/* Range = from 320px to 550px */
+@media screen and (min-width:320px) {
+  aside, .responsiveNav {
+    display: none;
+  }
+}
+
+
+/* Tablet View */
+/* Range = from 5500px to 768px */
+@media screen and (min-width:550px) {
+  aside{
+    display: none;
+  }
+
+  .responsiveNav{
+    display: none;
+  }
+
+}
+
+
+
+/* Desktop View */
+/* Range = from 768px to 1200px */
+@media screen and (min-width:768px) {
+  aside{
+    display: block;
+    background: darkslateblue;
+  }
+
+  aside a{
+    color: white;
+  }
+
+  .responsiveNav{
+    display: flex;
+  }
+}
