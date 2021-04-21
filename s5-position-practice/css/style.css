@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topSection {
+  border: 1px solid red;
+  background-color: lightblue;
+  height: 150px;
+  width: 350px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+.bottomSection {
+  border: 1px solid green;
+  background-color: lightcoral;
+  height: 150px;
+  width: 350px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  z-index: -1;
+}
+
+.bottomSection h2{
+  position: absolute;
+  top: 115px;
+}
+
+.formClass {
+  background: lightgray;
+  border: 1px solid black;
+  height: 125px;
+  width: 200px;
+  position: absolute;
+  top: 100px;
+  left: 85px;
+}
+
+.formClass label, .formClass input{
+  display: inline-block;
+  margin: 5px 5px;  
+}
