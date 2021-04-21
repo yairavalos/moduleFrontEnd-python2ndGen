@@ -42,11 +42,21 @@ ul li {
 }
 
 
+/* Main Area Definition */
+
+/* Arrangement between Aside Nav and 
+Card Section Area */
+
+main{
+  border: 1px dashed red;  
+}
+
 
 /* Card Area Definition */
 
 .cardContainer{
-
+  display: flex;
+  flex-direction: column;
 }
 
 .cardContainer .card{
@@ -130,16 +140,33 @@ footer{
 /* Desktop View */
 /* Range = from 768px to 1200px */
 @media screen and (min-width:768px) {
-  aside{
-    display: block;
-    background: darkslateblue;
-  }
-
-  aside a{
-    color: white;
-  }
-
+  
   .responsiveNav{
     display: flex;
   }
+
+  .hiddenMenu{
+    background: darkslateblue;
+    display: flex;
+  }
+
+  .hiddenMenu nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hiddenMenu nav ul{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hiddenMenu a{
+    color: white;
+  }
+
+  main{
+    display: flex;
+  }
+
 }
