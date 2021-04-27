@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.spinnerClass {
+  background-color: cornflowerblue;
+  border: 2px solid black;
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  animation-name: spinnerAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spinnerAnimation {
+  0% {background-color: lightcyan;}
+  25% {background-color: lightskyblue;}
+  50% {background-color: lightsteelblue;}
+  75% {background-color: blue;}
+  100% {background-color: navy;}
+}
